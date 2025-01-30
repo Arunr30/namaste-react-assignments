@@ -1,0 +1,14 @@
+chapter - 1
+
+JS before react
+
+
+1.  logical && and logical or
+2.  template literals
+3.  object destructuring
+4.  array destructuring
+5.  default parameters
+6.  spread operator
+7.  rest parameters
+8.  array methods --> map, filter, find, indexOf, includes, some, every
+9.  fetch, axios, async, await api calls
