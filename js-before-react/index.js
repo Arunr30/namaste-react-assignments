@@ -1,5 +1,3 @@
-import axios from "axios";
-
 // js before react js
 
 

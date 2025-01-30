@@ -12,3 +12,13 @@ JS before react
 7.  rest parameters
 8.  array methods --> map, filter, find, indexOf, includes, some, every
 9.  fetch, axios, async, await api calls
+
+
+chapter - 2.
+
+creating a react app.
+
+2 ways to creating react app.
+
+1. npm create vite@latest --> through bundler so its fast
+2. npx create-react-app
