@@ -1,18 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { Index } from "./components";
 
 function App() {
-  function flagOp(getFlag) {
-    return getFlag ? (
-      <h1>hello world for flag true</h1>
-    ) : (
-      <h1>hello world for flag false</h1>
-    );
-    console.log(flagOp(true));
-  }
-  return <>{flagOp(false)}</>;
+  const [count, setCount] = useState(1);
+  useEffect(() => {
+    console.log("only run page loads");
+    console.log("count is changed");
+  }, [count]);
+  return (
+    <>
+      <Index />
+    </>
+  );
 }
 
 export default App;
