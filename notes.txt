@@ -30,3 +30,19 @@ component did mount
 component did update 
 component will unmount
 
+
+
+
+
+context api
+
+
+provider, consumer
+
+first we should create our globalContext
+then we have to pass our state values as props aka children
+then we have wrap our app component using global state
+then we use UseContext hook to consume
+
+it will do only proper re rendering
+
