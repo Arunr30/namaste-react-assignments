@@ -22,3 +22,11 @@ creating a react app.
 
 1. npm create vite@latest --> through bundler so its fast
 2. npx create-react-app
+
+
+// life cycle methods
+
+component did mount 
+component did update 
+component will unmount
+

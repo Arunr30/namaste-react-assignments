@@ -4,14 +4,16 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import ClassComponent from "./components/class-component";
 import { FunctionComponent } from "./components/functinal-component";
+import Style from "./components/style";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <ClassComponent />
+      {/* <ClassComponent /> */}
       <FunctionComponent />
+      <Style></Style>
     </>
   );
 }
